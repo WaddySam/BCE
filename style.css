@@ -121,6 +121,11 @@ img {
 
 .content {
   overflow: scroll;
+  margin: 0 0 1.5em;
+}
+p{
+  margin: 0 0 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .subject-list{
@@ -129,6 +134,11 @@ img {
   align-self: center;
   text-align: center;
 }
+figcaption {
+	font-style: italic;
+	font-size: 90%;
+}
+
 .footer {
   color: #ffffff;
   text-align: center;
