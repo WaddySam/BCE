@@ -6,10 +6,13 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 body{
-  color: linear-gradient(to bottom, rgba(25, 69, 179, 0), rgb(2, 42, 91));
+  color: linear-gradient(to bottom, rgba(118, 149, 226, 0), rgb(2, 42, 91));
   /*background-color:#25297e;*/
-  background-image: linear-gradient(to top, rgba(25, 69, 179, 0), rgb(2, 42, 91));
+  background-image: linear-gradient(to top, rgba(126, 201, 244, 0.413), rgba(42, 95, 160, 0.378));
 
+}
+:not(logo){
+  border-radius: 0rem;
 }
 .header {
   color: #ffffff;
@@ -34,7 +37,7 @@ body{
 .menu li {
   list-style-type: none;
   float: left;
-  background-color: cornflowerblue;
+  background-image: linear-gradient(to top, rgba(220, 203, 177, 0.693), rgba(42, 95, 160, 0.378));
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -95,9 +98,10 @@ body{
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  background-color: #02133c;
+  background-image: linear-gradient(to top, rgba(97, 187, 220, 0.693), rgba(36, 76, 124, 0.748));
   color: rgba(241, 243, 247, 0.926);
-  border-radius: 2rem;
+  border-radius: 3rem;
+  border-image: 3rem;
 }
 .cards{
   align-items: center;
@@ -113,9 +117,7 @@ img {
   width: 400px;
   height: 300px;
 }
-:not(.logo){
-  border-radius: 0rem;
-}
+
 
 .content {
   overflow: scroll;
