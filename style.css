@@ -11,8 +11,12 @@ body{
   background-image: linear-gradient(to top, rgba(126, 201, 244, 0.413), rgba(42, 95, 160, 0.378));
 
 }
-:not(logo){
-  border-radius: 0rem;
+
+#logo {
+  border-width: 2rem;
+  border: rgba(111, 0, 0, 0);
+  width: 200px;
+  height: 150px;
 }
 .header {
   color: #ffffff;
@@ -60,6 +64,10 @@ body{
 
 .menu li:hover {
   background-color: #0099cc;
+}
+
+.menu a:active{
+  color: black;
 }
 
 
@@ -119,14 +127,21 @@ img {
 }
 
 
+
+
+
 .content {
   overflow: scroll;
   margin: 0 0 1.5em;
 }
 p{
   margin: 0 0 1.5em;
+  padding-top: 1rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  line-height:  40px;
 }
+
 
 .subject-list{
   display: flex;
@@ -147,3 +162,9 @@ figcaption {
   align-self: center;
   background-image: linear-gradient(to top, rgba(25, 69, 179, 0), rgb(2, 42, 91));
 }
+summary{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
