@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+body{
+  color: linear-gradient(to bottom, rgba(25, 69, 179, 0), rgb(2, 42, 91));
+  /*background-color:#25297e;*/
+  background-image: linear-gradient(to top, rgba(25, 69, 179, 0), rgb(2, 42, 91));
+
+}
+.header {
+  color: #ffffff;
+  padding: 15px;
+  background-image: linear-gradient(to top, rgba(25, 69, 179, 0), rgb(2, 42, 91));
+}
+
+.menu {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.menu ul {
+  overflow: hidden;
+  background-color: #33f3;
+  align-content: center;
+  display: flex;
+  nav-left: auto;
+  border-radius: 2rem;
+}
+
+.menu li {
+  list-style-type: none;
+  float: left;
+  background-color: cornflowerblue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  border-radius: 1rem;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+  padding-bottom: 2rem;
+}
+.column {
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.column.side {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+/* Middle column */
+.column.middle {
+ -webkit-flex: 2;
+ -ms-flex: 2;
+ flex: 2;
+}
+
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.article-title{
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  background-color: #02133c;
+  color: rgba(241, 243, 247, 0.748);
+  border-radius: 2rem;
+}
+.cards{
+  align-items: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+img {
+  border-radius: 3rem;
+}
+:not(.logo){
+  border-radius: 0rem;
+}
+
+.content {
+  overflow: scroll;
+}
+
+.subject-list{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
+.footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  align-items: center;
+  align-self: center;
+}
